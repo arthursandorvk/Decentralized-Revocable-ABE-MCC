@@ -33,7 +33,7 @@ Decentralized-Revocable-ABE-MCC/
 └── docs/                   # Protocol description, API reference, security notes
 ```
 
-> **Note:** fill in `src/sr_macp_abe/` with your implementation. The layout above follows the scheme's entities (authorities, cloud server, mobile client) one-to-one so reviewers can map code to the paper's algorithms.
+> **Note:** fill in `src/` with your implementation. The layout above follows the scheme's entities (authorities, cloud server, mobile client) one-to-one so reviewers can map code to the paper's algorithms.
 
 ## Quick Start
 
@@ -41,7 +41,7 @@ Run the end-to-end demonstration, which exercises all three execution paths: nor
 ```bash
 python src/main.py
 ```
-The demo registers three attribute authorities, enrolls a user, runs the four-stage decentralized key generation, encrypts a message under an access policy, and verifies decryption across the revocation scenarios. Set revoke_user / revoke_attribute in main.py to toggle the paths; passing ```UL=[alice['gid']]``` to revoke1 demonstrates that a revoked user can no
+The demo registers three attribute authorities, enrolls a user, runs the four-stage decentralized key generation, encrypts a message under an access policy, and verifies decryption across the revocation scenarios. Set *revoke_user* / *revoke_attribute* in *main.py* to toggle the paths; passing ```UL=[alice['gid']]``` to *revoke1* demonstrates that a revoked user can no
 longer decrypt.
 
 ## Reproducing the Paper's Results
@@ -50,7 +50,7 @@ Run the end-to-end demonstration, which exercises all three execution paths: nor
 ```bash
 python src/measurements_cp.py
 ```
-This reproduces the running-time measurements reported in the performance evaluation (Section 5) of the paper.
+This reproduces the running-time measurements reported in the *Performance Evaluation* (Section 5) of the paper.
 
 ## Requirements
 
