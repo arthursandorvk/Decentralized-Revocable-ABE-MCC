@@ -27,7 +27,6 @@ Decentralized-Revocable-ABE-MCC/
 ├── CONTRIBUTING.md         # How to contribute / report issues
 ├── .gitignore
 ├── src/                    # Core scheme implementation
-│   ├──
 │   ├── main.py             # Setup / KeyGen / Encrypt / Transform / Decrypt / Revoke
 │   ├── measurements.py     # Timing & communication-cost evaluation (paper Table/Figures)
 │   ├── sr_macp_abe.py      # System parameters & global setup
