@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/python-%E2%89%A53.6-blue)](https://www.python.org/)
 
 Official reference implementation accompanying the paper:
-> Arthur Sandor Voundi Koe, Jianghong Wei and Xiaofeng. Chen, "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing," *IEEE Transactions on Dependable and Secure Computing*, vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026, doi: [10.1109/TDSC.2026.3696736](https://doi.org/10.1109/TDSC.2026.3696736)
+> Arthur Sandor Voundi Koe, Jianghong Wei and Xiaofeng Chen, "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing," *IEEE Transactions on Dependable and Secure Computing*, vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026, doi: [10.1109/TDSC.2026.3696736](https://doi.org/10.1109/TDSC.2026.3696736)
 
 ## Overview
 
