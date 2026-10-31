@@ -26,14 +26,31 @@ Decentralized-Revocable-ABE-MCC/
 ├── CITATION.cff            # Machine-readable citation (GitHub "Cite this repository")
 ├── CONTRIBUTING.md         # How to contribute / report issues
 ├── .gitignore
-├── src/                    # Core scheme implementation
-│   ├── main.py             # Setup / KeyGen / Encrypt / Transform / Decrypt / Revoke
-│   ├── measurements.py     # Timing & communication-cost evaluation (paper Table/Figures)
-│   ├── sr_macp_abe.py      # System parameters & global setup
+├── src/                    
+│   ├── main.py             # End-to-end demo: Core scheme implementation - all fourteen operations
+│   ├── measurements.py     # Benchmarks reproducing the paper's performance evaluation (paper Table/Figures)
+│   ├── sr_macp_abe.py      #  Core scheme implementation - all fourteen operations
 └── docs/                   # Protocol description, API reference, security notes
 ```
 
 > **Note:** fill in `src/sr_macp_abe/` with your implementation. The layout above follows the scheme's entities (authorities, cloud server, mobile client) one-to-one so reviewers can map code to the paper's algorithms.
+
+## Quick Start
+
+Run the end-to-end demonstration, which exercises all three execution paths: normal decryption, decryption after user revocation, and decryption after attribute revocation.
+```bash
+python src/main.py
+```
+The demo registers three attribute authorities, enrolls a user, runs the four-stage decentralized key generation, encrypts a message under an access policy, and verifies decryption across the revocation scenarios. Set revoke_user / revoke_attribute in main.py to toggle the paths; passing ```UL=[alice['gid']]``` to revoke1 demonstrates that a revoked user can no
+longer decrypt.
+
+## Reproducing the Paper's Results
+
+Run the end-to-end demonstration, which exercises all three execution paths: normal decryption, decryption after user revocation, and decryption after attribute revocation.
+```bash
+python src/measurements_cp.py
+```
+This reproduces the running-time measurements reported in the performance evaluation (Section 5) of the paper.
 
 ## Requirements
 
@@ -54,7 +71,8 @@ The scripts reproduce the timing measurements reported in Section *Performance E
 
 ## Security Notice
 
-This is a **research prototype** published for reproducibility and peer review. It has **not** been audited for production use. Side-channel hardening, constant-time operations, and production parameter validation are out of scope. Do not use it to protect real data.
+This is a **research prototype** published for reproducibility and peer review. See [docs/SECURITY.md] for the trust assumptions (trusted DO; semi-trusted, non-colluding TEE-CS;
+semi-trusted AAs; malicious DUs), the security properties, and the known limitations. It has **not** been audited for production use. Side-channel hardening, constant-time operations, and production parameter validation are out of scope. **Report vulnerabilities privately** to the corresponding author - not via public issues. Do not use it to protect real data.
 
 ## Citation
 
