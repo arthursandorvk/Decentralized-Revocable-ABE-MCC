@@ -1,4 +1,4 @@
-# Contributing to DL-SAR-ABE
+# Contributing to Decentralized-Revocable-ABE-MCC
 
 Thank you for your interest. This repository is the reference implementation of a
 peer-reviewed paper; contributions that preserve reproducibility of the published
