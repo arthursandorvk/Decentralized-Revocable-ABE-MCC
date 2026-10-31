@@ -228,8 +228,6 @@ def main():
         # Server-aided transformation of the original ciphertext
         TC, I = sr_macpabe.Transform(ct, DU_hkey)
 
-        sr_macpabe.crs['group'].hash(str(alice['gid']), ZR)
-
         # Final lightweight decryption at the DU (with witness verification)
         M3 = sr_macpabe.Decrypt(ct, TC, I, DO_key, DU_hkey, pub_DO)
         
