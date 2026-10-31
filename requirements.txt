@@ -1,0 +1,6 @@
+# DL-SAR-ABE dependencies
+# Charm-Crypto is best installed from conda: conda install -c jhuisi charm-crypto
+charm-crypto>=0.50 ; platform_system != "Windows"
+pytest>=7.0
+numpy>=1.24
+matplotlib>=3.7   # benchmark plots only

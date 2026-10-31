@@ -1,0 +1,39 @@
+DL-SAR-ABE — Reference Implementation
+Copyright (c) 2026 A. S. V. Koe, J. Wei, and X. Chen. All rights reserved
+under the terms of the GNU General Public License v3.0 (see LICENSE).
+
+This software is the official implementation of:
+
+    A. S. V. Koe, J. Wei and X. Chen, "Decentralized and Lightweight
+    Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud
+    Computing," IEEE Transactions on Dependable and Secure Computing,
+    vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026,
+    doi: 10.1109/TDSC.2026.3696736.
+
+ATTRIBUTION REQUIREMENT
+-----------------------
+Under Section 7(b) of GPL-3.0, the authors additionally require that any
+copy, modification, or derivative work of this software:
+
+  1. Retains this NOTICE file and the copyright lines above, unmodified;
+  2. Cites the paper above in any accompanying documentation and in any
+     academic publication that uses or builds upon this code;
+  3. Clearly marks all modifications and identifies their authors.
+
+USAGE TRACKING POLICY
+---------------------
+The authors maintain active tracking of this code's reuse, including:
+  - GitHub fork/star/watch network of the canonical repository;
+  - periodic code-search queries (GitHub Code Search, Sourcegraph,
+    grep.app) for distinctive identifiers and file hashes;
+  - Google Scholar citation alerts on the paper DOI;
+  - reverse-lookup of binary artifacts where legally permitted.
+
+If you use this code in compliance with GPL-3.0 and the attribution terms
+above, no further action is needed — but a courtesy email or a citation
+is appreciated. Unauthorized use (removed notices, undisclosed
+derivatives, closed-source commercial use) will be pursued under the
+terms of the GPL and applicable copyright law.
+
+To report suspected misuse, or to request a commercial license, contact
+the corresponding author at: <your email>
