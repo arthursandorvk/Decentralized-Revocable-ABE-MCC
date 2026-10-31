@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "DL-SAR-ABE: Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing"
+title: "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing"
 authors:
-  - family-names: "Koe"
-    given-names: "A. S. V."
+  - family-names: "Voundi Koe"
+    given-names: "Arthur Sandor"
   - family-names: "Wei"
-    given-names: "J."
+    given-names: "Jianghong"
   - family-names: "Chen"
-    given-names: "X."
+    given-names: "Xiaofeng"
 doi: 10.1109/TDSC.2026.3696736
 date-released: 2026-10-31
 license: GPL-3.0-only
@@ -20,12 +20,12 @@ keywords:
 preferred-citation:
   type: article
   authors:
-    - family-names: "Koe"
-      given-names: "A. S. V."
+    - family-names: "VOundi Koe"
+      given-names: "Arthur Sandor"
     - family-names: "Wei"
-      given-names: "J."
+      given-names: "Jianghong"
     - family-names: "Chen"
-      given-names: "X."
+      given-names: "Xiaofeng"
   journal: "IEEE Transactions on Dependable and Secure Computing"
   title: "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing"
   year: 2026
