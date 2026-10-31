@@ -1,10 +1,10 @@
-DL-SAR-ABE — Reference Implementation
-Copyright (c) 2026 A. S. V. Koe, J. Wei, and X. Chen. All rights reserved
+Decentralized-Revocable-ABE-MCC — Reference Implementation
+Copyright (c) 2026 Arthur Sandor Voundi Koe, Jianghong Wei, and Xiaofeng Chen. All rights reserved
 under the terms of the GNU General Public License v3.0 (see LICENSE).
 
 This software is the official implementation of:
 
-    A. S. V. Koe, J. Wei and X. Chen, "Decentralized and Lightweight
+    Arthur Sandor Voundi Koe, Jianghong Wei and Xiaofeng Chen, "Decentralized and Lightweight
     Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud
     Computing," IEEE Transactions on Dependable and Secure Computing,
     vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026,
