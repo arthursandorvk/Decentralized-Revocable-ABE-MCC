@@ -214,7 +214,7 @@ pip install -r requirements.txt   # or: conda install -c jhuisi charm-crypto
 ## Reproducing the Paper's Results
 
 ```bash
-python scripts/measurements_cp.py
+python src/measurements_cp.py
 ```
 
 The scripts reproduce the timing measurements reported in Section *Performance Evaluation* of the paper.
