@@ -1,8 +1,6 @@
 '''
-Arthur Sandor Voundi Koe, Wei Jian Hong, Jin Li, Chen Xiao Feng
-
-| From: "E-HR-ABE Enhanced Hardware Revocable Attribute-Based Encryption".
-| Published in: 2025
+| From: "Decentralized-Revocable-ABE-MCC: Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing"
+| Published in: 2026
 | Available from:
 | Notes:
 | Security Assumption:
@@ -10,8 +8,8 @@ Arthur Sandor Voundi Koe, Wei Jian Hong, Jin Li, Chen Xiao Feng
 | type:           multi-authority ciphertext-policy attribute-based encryption (public key)
 | setting:        Pairing
 
-:Authors:    Arthur SAndor Voundi Koe
-:Date:            11/2024
+:Authors:    Arthur Sandor Voundi Koe, Wei Jianghong, Xiaofeng Chen
+:Date:            10/2026
 '''
 import hashlib
 
