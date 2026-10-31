@@ -1,10 +1,10 @@
 # Decentralized-Revocable-ABE-MCC: Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTDSC.2026.3696736-blue)](https://doi.org/10.1109/TDSC.2026.3696736)]
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)]
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTDSC.2026.3696736-blue)](https://doi.org/10.1109/TDSC.2026.3696736)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-%E2%89%A53.8-blue)](https://www.python.org/)
-[
+
 Official reference implementation accompanying the paper:
-> Arthur Sandor Voundi Koe, Jianghong Wei and Xiaofeng. Chen, "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing," *IEEE Transactions on Dependable and Secure Computing*, vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026, doi: [10.1109/TDSC.2026.3696736](https://doi.org/10.1109/TDSC.2026.3696736)]
+> Arthur Sandor Voundi Koe, Jianghong Wei and Xiaofeng. Chen, "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing," *IEEE Transactions on Dependable and Secure Computing*, vol. 23, no. 5, pp. 9918-9933, Sept.-Oct. 2026, doi: [10.1109/TDSC.2026.3696736](https://doi.org/10.1109/TDSC.2026.3696736)
 
 ## Overview
 
