@@ -1,6 +1,3 @@
-# Decentralized-Revocable-ABE-MCC
-Code for our IEEE TDSC 2026 paper "Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption for Mobile Cloud Computing", doi: 10.1109/TDSC.2026.3696736. It implements a decentralized multi-authority CP-ABE with server-aided decryption, user and attribute revocation, and transformation key-exposure resistance.
-
 # Decentralized-Revocable-ABE-MCC: Decentralized and Lightweight Server-Aided Revocable Attribute-Based Encryption
 
 Official reference implementation accompanying the paper:
@@ -20,7 +17,7 @@ Decentralized-Revocable-ABE-MCC is a **decentralized**, **lightweight**, and **s
 ## Repository Structure
 
 ```
-DL-SAR-ABE/
+Decentralized-Revocable-ABE-MCC/
 ├── README.md               # This file
 ├── LICENSE                 # GNU GPL v3.0 (see "License & Usage Tracking")
 ├── NOTICE                  # Attribution notice that must accompany copies
@@ -41,7 +38,7 @@ DL-SAR-ABE/
 └── docs/                   # Protocol description, API reference, security notes
 ```
 
-> **Note:** fill in `src/dl_sar_abe/` with your implementation. The layout above follows the scheme's entities (authorities, cloud server, mobile client) one-to-one so reviewers can map code to the paper's algorithms.
+> **Note:** fill in `src/sr_macp_abe/` with your implementation. The layout above follows the scheme's entities (authorities, cloud server, mobile client) one-to-one so reviewers can map code to the paper's algorithms.
 
 ## Requirements
 
